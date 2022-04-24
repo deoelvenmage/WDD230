@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: #ffe4c4;
+}
+
+header, footer, main {
+    max-width: 36rem; /*16px * 32*/
+    margin: 0 auto;
+    padding: 2rem;
+    border: 5px solid rgb(20, 2, 73);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+#profile-pic {
+    width: 150px; /*The html gives us the ratio so it knows screen space to allocate; this tells it the size.*/
+    height: auto;
+}
+
+h2 {
+    margin-bottom: .5em;
+}
+
+ul {
+    padding-left: 2em;
+}
+
+#last-update {
+    font-size: .7em;
+    color: rgb(112, 84, 17);
+}
