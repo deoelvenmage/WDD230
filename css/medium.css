@@ -1,0 +1,7 @@
+@media (min-width: 32.5em) {
+    ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .5em;
+    }
+}
