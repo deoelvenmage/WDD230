@@ -125,12 +125,110 @@ nav {
     background-color: #ffe4c4;
     padding: 1em;
     border: 2px solid rgb(20, 2, 73); 
+    text-align: center;
 }
 #spot-3 {
     display: none;
 }
 #join {
     display: none;
+}
+.main-grid div p:first-child {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+
+/* 
+    Grid sections
+*/
+/* Centerpiece Call to Action */
+#hero {
+    position: relative;
+    padding: 0;
+}
+#hero img {
+    width: 100%;
+    height: 100%;
+}
+#hero h2 {
+    position: absolute;
+    left: 1em;
+    top: .75em;
+    font-size: 1.5em;
+    background-color: #ffea65;
+    padding: .1em;
+    border: 2px solid rgb(20, 2, 73); 
+    max-width: 80%;
+}
+#hero button {
+    position: absolute;
+    bottom: 1em;
+    right: 2em;
+    padding: .5em;
+    padding-right: 1em;
+    padding-left: 1em;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+/* Event */
+#event p {
+    margin-bottom: 1.5em;
+}
+
+/* Spotlights */
+#spotlights div p:first-child {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+#spotlights div div {
+    border: none;;
+}
+#spotlights div img {
+    width: 50%;
+    height: auto;
+}
+
+/* Weather */
+#weather {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: right;
+}
+#weather :first-child{
+    justify-self: center;
+    grid-column: 1/3;
+}
+#weather img {
+    justify-self: right;
+}
+#temperature {
+    font-size: 2em;
+    align-self: center;
+    justify-self: center;
+}
+#conditions {
+    grid-column: 1/3;
+    font-weight: bold;
+}
+#weather hr {
+    grid-column: 1/3;
+}
+#wind-speed {
+    justify-self: center;
+}
+#wind-chill {
+    justify-self: center;
+}
+
+/* Join */
+#join button {
+    padding: .8em;
+    width: 100%;
+    margin-bottom: .8em;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 
