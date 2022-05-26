@@ -16,8 +16,6 @@ button.addEventListener('click', () => {
         list.appendChild(item)
         input.focus()
         input.value = ""
-
-        console.log("Done")
     }
     return
 })
