@@ -17,7 +17,7 @@
 <body>
     <header>
         <div class="header-logo">
-            <a href="#"><img src="./images/logo1.png" alt="Ricksburg Chamber of Commerce Logo" width="100" height="100"></a>
+            <a href="#"><img src="./images/logo1.webp" alt="Ricksburg Chamber of Commerce Logo" width="100" height="100"></a>
             <section>
                 <h1>Ricksburg</h1>
                 <p>Chamber of Commerce</p>
@@ -39,8 +39,10 @@
     <main class="main-grid">
         <div id="hero">
             <h2>Welcome to Ricksburg!</h2>
-            <img src="./images/townpic.jpg" alt="A picture of a town neighborhood" width="500" height="500">
-            <!--Photo by Andreas Gücklhorn on Unsplash-->
+            <img src="./images/townpic-large.webp" alt="A picture of a town neighborhood" width="4000" height="3000"
+            srcset="./images/townpic-large.webp 1000w, ./images/townpic-medium.webp 700w, ./images/townpic-small.webp 400w" 
+            sizes="(max-width: 1000px) 100vw, 50vw">
+            <!--Photo by Andreas Gücklhorn on Unsplash--> 
             <button>Join the Chamber</button>
         </div>
         <div id="event">
@@ -52,13 +54,13 @@
             <p>Weather</p>
             <!--href="https://www.flaticon.com/free-icons/sun" Sun icon created by iconixar - Flaticon-->
             <img src="./images/cloudy.png" alt="A sun behind a cloud" width="100" height="100">
-            <p id="temperature">33°C</p>
+            <p><span id="temperature">33</span>°F</p>
             <p id="conditions">Partly Cloudy</p>
             <hr>
             <p>Wind Speed:</p>
-            <p id="wind-speed">2.5 km/h</p>
+            <p><span id="wind-speed">3.5</span> mph</p>
             <p>Wind Chill:</p>
-            <p id="wind-chill">N/A</p>
+            <p>-<span id="wind-chill"></span> °F</p>
         </div>
         <div id="news">
             <p>News Release</p>
@@ -101,7 +103,7 @@
     <footer>
         <div class="footer-chamber">
             <div class="footer-logo">
-                <img src="./images/logo1.png" alt="Ricksburg Chamber of Commerce Logo" width="100" height="100">
+                <img src="./images/logo1.webp" alt="Ricksburg Chamber of Commerce Logo" width="100" height="100">
                 <section>
                     <h3>Ricksburg Chamber of Commerce</h3>
                     <p>154 Queen's Street</p>
@@ -121,5 +123,6 @@
         </div>
     </footer>
     <script src="./js/script.js"></script>
+    <script src="./js/windchill.js"></script>
 </body>
 </html>
