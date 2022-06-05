@@ -276,3 +276,52 @@ footer div section {
     text-align: center;
     padding: .4em;
 }
+
+
+
+/* 
+    Discover page. On medium and large view, put some significant padding at top of every demographic element.
+*/
+
+.discover h2 {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.discover {
+    padding-bottom: 1em;
+}
+
+.demographic p {
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 1rem;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-label {
+    padding: 1em;
+    text-align: center;
+}
+
+.gallery-item {
+    width: 100%;
+    border: 1px solid black;
+    min-height: 200px;
+}
+
+.gallery-item:hover {
+    box-shadow: 0 0 20px black;
+}

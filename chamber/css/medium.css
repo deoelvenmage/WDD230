@@ -60,4 +60,24 @@
         margin-left: 5em;
         margin-right: 5em;
     }
+
+
+
+    .discover {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .discover h2 {
+        padding-bottom: 1em;
+    }
+
+    .demographic h2 {
+        padding-top: 3em;
+    }
+
+    .demographic p {
+        padding-top: 2em;
+    }
 }

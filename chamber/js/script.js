@@ -33,7 +33,3 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 
 // To solve the mid resizing issue with responsive class on
 window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
-
-
-
-//using our weekday stuff, check for Monday or Tuesday, then if yes, create a p node with a class "announcement" and append(o) it to the header. Give it CSS properties if needed; porbably some top and bottom padding, and text centering.
