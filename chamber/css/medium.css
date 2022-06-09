@@ -80,4 +80,8 @@
     .demographic p {
         padding-top: 2em;
     }
+
+    .gallery-item:hover {
+        box-shadow: 0 0 20px black;
+    }
 }

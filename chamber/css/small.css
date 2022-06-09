@@ -321,7 +321,3 @@ footer div section {
     border: 1px solid black;
     min-height: 200px;
 }
-
-.gallery-item:hover {
-    box-shadow: 0 0 20px black;
-}
