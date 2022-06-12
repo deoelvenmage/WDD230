@@ -61,4 +61,15 @@
         margin-left: 12em;
         margin-right: 20em;
     }
+
+
+    form {
+        position: relative;
+    }
+
+    #member-level-explain {
+        position: absolute;
+        right: -18rem;
+        bottom: 5rem;
+    }
 }

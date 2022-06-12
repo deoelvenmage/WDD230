@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover more about Ricksburg and why businesses love it here!">
+    <title>Ricksburg Chamber of Commerce - Discover</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-logo">
+            <a href="./index.html"><img src="./images/logo1.webp" alt="Ricksburg Chamber of Commerce Logo" width="100"
+                    height="100"></a>
+            <section>
+                <h1>Ricksburg</h1>
+                <p>Chamber of Commerce</p>
+            </section>
+        </div>
+        <nav>
+            <a href="#"><img src="./images/facebook.png" alt="Facebook Logo" class="social-media-icon" width="50"
+                    height="50"></a>
+            <a href="#"><img src="./images/linkedin.png" alt="LinkedIn Logo" class="social-media-icon" width="50"
+                    height="50"></a>
+            <ul class="navigation">
+                <li><a class="hamnav" href="#"></a></li>
+                <li><a href="./discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <p id="today-date"></p>
+    </header>
+    <main class="join-page">
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend><h2>Personal Info</h2></legend>
+                <label for="firstname" class="required">First name:</label>
+                <input type="text" name="firstname" id="firstname" autofocus required>
+
+                <label for="lastname" class="required">Last name:</label>
+                <input type="text" name="lastname" id="lastname" required>
+
+                <label for="business-position">Business position: (at least 7 characters)</label>
+                <input type="text" name="business-position" id="business-position" pattern="([A-Z]|[a-z]| |-|'){7,}">
+
+                <label for="email" class="required">Email: (example@email.com)</label>
+                <input type="email" name="email" id="email" placeholder="example@email.com" pattern="\w+@\w+.com" required>
+
+                <label for="phone" class="required">Phone number: (555-555-5555)</label>
+                <input type="tel" name="phone" id="phone" placeholder="555-555-5555" pattern="\d\d\d-\d\d\d-\d\d\d\d" required>
+            </fieldset>
+            <fieldset>
+                <legend><h2>Business Info</h2></legend>
+
+                <label for="business-title">Business title</label>
+                <input type="text" name="business-title" id="business-title" required>
+
+                <section id="member-level-explain" class="required">
+                    <h2>Membership Levels</h2>
+                    <h4>Non-Profit - No Fee</h4>
+                    <ul>
+                        <li><p>Red and white Ricksburg rank pin</p></li>
+                        <li><p>Search priority</p></li>
+                        <li><p>50% event discount</p></li>
+                        <li><p>Chamber council seat - 3 votes</p></li>
+                    </ul>
+                    <h4>Bronze - $5/month</h4>
+                    <ul>
+                        <li><p>Bronze Ricksburg rank pin</p></li>
+                    </ul>
+                    <h4>Silver - $15/month</h4>
+                    <ul>
+                        <li><p>Silver Ricksburg rank pin</p></li>
+                        <li><p>50% event discount</p></li>
+                        <li><p>Chamber council seat - 1 vote</p></li>
+                    </ul>
+                    <h4>Gold - $60/month</h4>
+                    <ul>
+                        <li><p>Gold Ricksburg rank pin</p></li>
+                        <li><p>Marble statue of yourself</p></li>
+                        <li><p>Search priority</p></li>
+                        <li><p>50% event discount</p></li>
+                        <li><p>Chamber council seat - 4 votes</p></li>
+                    </ul>
+                </section>
+                
+                <label><input type="radio" name="status" value="non-profit">Non-Profit</label>
+                <label><input type="radio" name="status" value="bronze">Bronze</label>
+                <label><input type="radio" name="status" value="silver">Silver</label>
+                <label><input type="radio" name="status" value="gold">Gold</label>
+
+                <label for="description">Business description</label>
+                <textarea name="description" id="description" rows="7"></textarea>
+
+                <input type="hidden" name="user-time" id="user-time">
+            </fieldset>
+
+            <input type="submit" value="Sign Up">
+        </form>
+        <hr>
+    </main>
+    <footer>
+        <div class="footer-chamber">
+            <div class="footer-logo">
+                <img src="./images/logo1.webp" alt="Ricksburg Chamber of Commerce Logo" width="100" height="100">
+                <section>
+                    <h3>Ricksburg Chamber of Commerce</h3>
+                    <p>154 Queen's Street</p>
+                    <p>Ricksburg, Idaho 83470</p>
+                </section>
+            </div>
+            <div class="footer-info">
+                <p>ricksburgcc@ricksburg.org</p>
+                <p>+(208) 403-3420</p>
+                <p>&#128308; Location Map</p>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">
+            <p>&copy; 2022 Ricksburg Chamber | David Olsen | WDD230 Project</p>
+            <p id="last-update">Last modified: <span id="lastmod"></span></p>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+    <script src="./js/get-datetime.js"></script>
+</body>
+
+</html>

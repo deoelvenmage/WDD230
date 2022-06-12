@@ -280,7 +280,7 @@ footer div section {
 
 
 /* 
-    Discover page. On medium and large view, put some significant padding at top of every demographic element.
+    Discover page.
 */
 
 .discover h2 {
@@ -320,4 +320,63 @@ footer div section {
     width: 100%;
     border: 1px solid black;
     min-height: 200px;
+}
+
+
+
+/* 
+    Join page. On medium+ move the Benefits explanation to the side.
+*/
+.join-page {
+    background-color: rgb(214, 180, 44);
+}
+
+form {
+    max-width: 27.5rem;
+    margin: 0 auto;
+    padding: 1em;
+    border: 2px solid rgb(154, 127, 21);
+    background-color: rgb(228, 214, 155);
+}
+
+form label, form input, form textarea {
+    display: block;
+    width: 100%;
+}
+
+label input {
+    display: inline;
+    width: auto;
+    margin: 0;
+}
+
+form input, form textarea {
+    margin-bottom: 1em;
+    padding: .75rem;
+}
+
+form label.required::after {
+    content: " *";
+    color: red;
+}
+
+fieldset {
+    margin-bottom: 1.5rem;
+}
+
+input:invalid {
+    box-shadow: 0 0 2px 1px red;
+}
+
+#member-level-explain ul {
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.thankyou {
+    text-align: center;
+    min-height: 55vh;
+    background-color: rgb(228, 214, 155);
+    border: 2px solid rgb(154, 127, 21);
+    padding: 1em;
 }
