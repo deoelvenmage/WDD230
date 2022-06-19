@@ -1,0 +1,85 @@
+{
+    "businesses" : [
+        {
+            "name" : "Recycle-Inc",
+            "address" : "154 King's Street",
+            "phone" : "(111) 111-1111",
+            "site" : "https://recycl-inc.com",
+            "icon" : "./images/businesses/garbage-truck-r.png",
+            "email" : "recyclinc@busmail.com",
+            "membership" : "Silver"
+        },
+        {
+            "name" : "Bob's Game and Grill",
+            "address" : "541 King's Street",
+            "phone" : "(222) 222-2222",
+            "site" : "https://bgng.com",
+            "icon" : "./images/businesses/burger.png",
+            "email" : "bobgamegrill@busmail.com",
+            "membership" : "Gold"
+        },
+        {
+            "name" : "The Handy Dandies",
+            "address" : "415 King's Street",
+            "phone" : "(333) 333-3333",
+            "site" : "https://handydandies.com",
+            "icon" : "./images/businesses/wrench.png",
+            "email" : "handydandies@busmail.com",
+            "membership" : "Gold"
+        },
+        {
+            "name" : "Plumbers United",
+            "address" : "541 Bishop Ave",
+            "phone" : "(444) 444-4444",
+            "site" : "https://plmbunited.com",
+            "icon" : "./images/businesses/wrench-r.png",
+            "email" : "plumbersunited@busmail.com",
+            "membership" : "Silver"
+        },
+        {
+            "name" : "Rolling Roadkill",
+            "address" : "145 Bishop Ave",
+            "phone" : "(555) 555-5555",
+            "site" : "https://roadkillrestaurant.com",
+            "icon" : "./images/businesses/burger-r.png",
+            "email" : "rollingroadkill@busmail.com",
+            "membership" : "Silver"
+        },
+        {
+            "name" : "Slamburger",
+            "address" : "541 Rook Street",
+            "phone" : "(666) 666-6666",
+            "site" : "https://slammed-burgers.com",
+            "icon" : "./images/businesses/burger-u.png",
+            "email" : "slamburger@busmail.com",
+            "membership" : "Bronze"
+        },
+        {
+            "name" : "Ricksburg City Waste Collection",
+            "address" : "415 Rook Street",
+            "phone" : "(777) 777-7777",
+            "site" : "https://plmbunited.com",
+            "icon" : "./images/businesses/garbage-truck.png",
+            "email" : "plumbersunited@busmail.com",
+            "membership" : "Non-Profit"
+        },
+        {
+            "name" : "Sunken Sun Nightlife",
+            "address" : "415 Bishop Ave",
+            "phone" : "(888) 888-8888",
+            "site" : "https://sundowners.com",
+            "icon" : "./images/businesses/cloudy-u.png",
+            "email" : "sunkensun@busmail.com",
+            "membership" : "Gold"
+        },
+        {
+            "name" : "Trashmaster Compactors",
+            "address" : "145 Rook Street",
+            "phone" : "(999) 999-9999",
+            "site" : "https://trashcompact.com",
+            "icon" : "./images/businesses/garbage-truck-u.png",
+            "email" : "trashmasters@busmail.com",
+            "membership" : "Bronze"
+        }
+    ] 
+}

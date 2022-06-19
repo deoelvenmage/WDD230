@@ -35,16 +35,24 @@
             <ul class="navigation">
                 <li><a class="hamnav" href="#"></a></li>
                 <li><a href="./discover.html">Discover</a></li>
-                <li><a href="./directory.html">Directory</a></li>
+                <li><a href="#">Directory</a></li>
                 <li><a href="./join.html">Join</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
         <p id="today-date"></p>
     </header>
-    <main class="thankyou">
-        <h1>Thank you for joining!</h1>
-        <p>...the Ricksburg Chamber of Commerce! We're glad to have you here, and hope to see you at our next event soon!</p>
+    <main class="directory-main">
+        <h1>Business Directory</h1>
+        <div>
+            <button id="grid">Card</button> 
+            <!-- Change this to grid and list icons? Maybe TODO -->
+		    <button id="list">List</button>
+        </div>
+        
+        <div id="directory" class="directory-grid">
+            
+        </div>
     </main>
     <footer>
         <div class="footer-chamber">
@@ -69,6 +77,7 @@
         </div>
     </footer>
     <script src="./js/script.js"></script>
+    <script src="./js/directory.js"></script>
 </body>
 
 </html>

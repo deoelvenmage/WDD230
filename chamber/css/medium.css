@@ -84,4 +84,11 @@
     .gallery-item:hover {
         box-shadow: 0 0 20px black;
     }
+
+
+    .directory-list .business-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 2rem;
+    }
 }

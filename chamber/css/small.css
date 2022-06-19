@@ -330,6 +330,11 @@ footer div section {
 .join-page {
     background-color: rgb(214, 180, 44);
 }
+.join-page h1 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 1em;
+}
 
 form {
     max-width: 27.5rem;
@@ -380,3 +385,77 @@ input:invalid {
     border: 2px solid rgb(154, 127, 21);
     padding: 1em;
 }
+
+
+/* 
+    Directory page
+*/
+.directory-main {
+    text-align: center;
+}
+
+.directory-main button {
+    padding: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.directory-grid {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+	align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.directory-grid .business-card p {
+    margin-top: .5em;
+}
+
+.icon-container img {
+    max-width: 175px;
+    height: auto;
+}
+
+.directory-grid h3 {
+    display: none;
+}
+
+.directory-grid .business-card {
+    border: 2px solid rgb(154, 127, 21);
+    background-color: rgb(223, 201, 113);
+    padding: 1rem;
+    box-shadow: 0 0 10px black;
+}
+
+.directory-list {
+    margin: 1em;
+    text-align: left;
+}
+
+.directory-list .business-card {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */
+    border: 2px solid rgb(154, 127, 21);
+    padding: 1rem;
+    /* gap: 2rem; */
+}
+
+.directory-list .icon-container {
+    display: none;
+}
+
+.directory-list p {
+    margin-top: .2em;
+}
+
+.directory-list section:nth-of-type(2n) {
+    background-color: rgb(228, 214, 155);
+}
+.directory-list section:nth-of-type(2n+1) {
+    background-color: rgb(245, 239, 215);
+}
+
+/* directory-grid nth-child(n) for the box shadow and targeting and stuff, vs dir-list nth-child(even) for the alternator colors */
