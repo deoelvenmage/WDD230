@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A page to test the usage of a weather API">
+    <title>Weather API Testing</title>
+    <style>
+        #current-temp {
+            font-weight: bold;
+        }
+
+        footer {
+            font-style: italic;
+            font-size: .9em;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>OpenWeatherMap.org API Test</h1>
+        <p>The current temperature in Fairbanks, Alaska is <span id="current-temp"></span> &deg;F</p>
+        <h2>Current Condition Icon</h2>
+        <figure>
+            <img src="" alt="" id="weather-icon" />
+            <figcaption></figcaption>
+        </figure>
+    </main>
+    <footer>
+        <p>Weather data courtesy of <a href="https://openweathermap.org">openweathermap.org</a> (no affiliation) available through Creative Commons BY-SA 4.0 license.</p>
+    </footer>
+    <script src="./weather-api.js"></script>
+</body>
+
+</html>
