@@ -204,7 +204,7 @@ nav {
 #weather img {
     justify-self: right;
 }
-#temperature {
+#tempspan {
     font-size: 2em;
     align-self: center;
     justify-self: center;
@@ -275,6 +275,12 @@ footer div section {
 .copyright {
     text-align: center;
     padding: .4em;
+}
+
+#weather-credit {
+    font-size: .8em;
+    font-style: italic;
+    text-align: center;
 }
 
 
@@ -392,6 +398,11 @@ input:invalid {
 */
 .directory-main {
     text-align: center;
+}
+
+.directory-main h2 {
+    font-size: 2em;
+    padding: 1rem;
 }
 
 .directory-main button {
