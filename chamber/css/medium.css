@@ -91,4 +91,10 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 2rem;
     }
+
+
+    .contact-grid {
+        grid-template-columns: 1fr 1fr;
+        margin: 2rem;
+    }
 }

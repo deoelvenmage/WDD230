@@ -7,7 +7,6 @@ const url = "https://api.openweathermap.org/data/2.5/forecast?q=Rexburg&units=Im
 fetch(url)
   .then((response) => response.json())
   .then((data) => {
-    console.log(data.list[0]);
     currentTemp.textContent = Math.round(data.list[0].main.temp);
     
     const iconurl = `https://openweathermap.org/img/wn/${data.list[0].weather[0].icon}@2x.png`;
